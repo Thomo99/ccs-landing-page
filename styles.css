@@ -4,10 +4,10 @@
 body{
     margin: 0;
     font-family: Roboto, sans-serif;
-    display: flex;
+
 }
 
-header .pane1{
+header{
     display: flex;
     background-color: #1F2937;
     width: 100%;
@@ -31,3 +31,25 @@ ul{
     gap: 20px;
 }
 
+.pane1{
+    display: flex;
+    background-color: #1F2937;
+    width: 100%;
+
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.family1{
+    max-width: 20%;
+    height: auto;
+}
+
+.awesome{
+    color: #F9FAF8;
+    font-size: 48px;
+    /* font-family: roboto, sans-serif; */
+}
+.subtext{
+    
+}
