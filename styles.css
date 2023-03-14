@@ -6,7 +6,6 @@ body{
     font-family: Roboto, sans-serif;
 
 }
-
 header{
     display: flex;
     background-color: #1F2937;
@@ -16,12 +15,10 @@ header{
     align-items: baseline;
 }
 
-
 .logo{
     font-size: 24px;
     padding-left: 50px;
 }
-
 ul{
     list-style-type: none;
     display: flex;
@@ -35,27 +32,31 @@ ul{
     display: flex;
     background-color: #1F2937;
     width: 100%;
-
+    /* flex-direction: column;
+    align-items: flex-start; */
 }
-
+.text{
+    display: flex;
+    flex-direction: column;
+}
 .family1{
     max-width: 20%;
     height: auto;
     margin-left: auto;
 }
-
 .awesome{
     color: #F9FAF8;
     font-size: 48px;
     /* font-family: roboto, sans-serif; */
+    max-width: 70%;
 }
 .subtext{
    font-size: 18px;
-   color: lightgrey; 
+   color: lightgrey;
+   max-width: 70%;
 }
-.words{
-    flex-flow: column nowrap;
-    align-items: center;
-    justify-content: center;
-    max-width: 50%;
+.button{
+    max-width: 100px;
 }
+
+
