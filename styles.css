@@ -36,13 +36,12 @@ ul{
     background-color: #1F2937;
     width: 100%;
 
-    justify-content: space-between;
-    align-items: baseline;
 }
 
 .family1{
     max-width: 20%;
     height: auto;
+    margin-left: auto;
 }
 
 .awesome{
@@ -51,5 +50,12 @@ ul{
     /* font-family: roboto, sans-serif; */
 }
 .subtext{
-    
+   font-size: 18px;
+   color: lightgrey; 
+}
+.words{
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    max-width: 50%;
 }
