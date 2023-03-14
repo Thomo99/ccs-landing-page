@@ -7,7 +7,7 @@ body{
     display: flex;
 }
 
-header{
+header .pane1{
     display: flex;
     background-color: #1F2937;
     width: 100%;
@@ -30,3 +30,4 @@ ul{
     margin-right: 50px;
     gap: 20px;
 }
+
