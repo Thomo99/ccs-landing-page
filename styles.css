@@ -39,10 +39,43 @@ ul{
     display: flex;
     flex-direction: column;
 }
-.family1{
+.random1{
     max-width: 20%;
     height: auto;
     margin-left: auto;
+}
+/* .whitePanel{
+    display: flex;
+    flex-direction: row;
+} */
+.randomInfo{
+    display: flex;
+    justify-content: center;
+}
+.random2{
+    display: flex;
+    flex-direction: column;
+    max-width: 10%;
+    height: auto;
+}
+
+.random3{
+    display: flex;
+    flex-direction: column;
+    max-width: 10%;
+    height: auto;
+}
+.random4{
+    display: flex;
+    flex-direction: column;
+    max-width: 10%;
+    height: auto;
+}
+.random5{
+    display: flex;
+    flex-direction: column;
+    max-width: 6%;
+    height: auto;
 }
 .awesome{
     color: #F9FAF8;
@@ -58,5 +91,11 @@ ul{
 .button{
     max-width: 100px;
 }
+.images{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 
 
