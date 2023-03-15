@@ -98,8 +98,23 @@ ul{
 }
 .greyPanel{
     background-color: #E5E7EB;
-    font-family: Roboto, sans-serif, 700;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
 }
-
-
+.greyText{
+   
+}
+.quote{
+    margin-top: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.thor{
+    align-self: flex-end;
+    margin-bottom: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
 
